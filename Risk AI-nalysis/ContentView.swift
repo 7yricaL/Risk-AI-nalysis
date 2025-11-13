@@ -16,10 +16,10 @@ struct ContentView: View {
                     Text("Home")
                 }
             
-            PortfolioView()
+            SentimentView()
                 .tabItem {
                     Image(systemName: "chart.pie")
-                    Text("Portfolios")
+                    Text("Sentiment")
                 }
         }
     }
@@ -44,7 +44,7 @@ struct HomeView: View {
                         Image(systemName: "shield.fill")
                             .foregroundColor(.gray)
                             .font(.title2)
-                        Text("Risk AI-nalysis")
+                        Text("AI-nalysis")
                             .font(.title)
                             .fontWeight(.bold)
                     }
@@ -201,8 +201,6 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, 20)
             }
-            .navigationTitle("Welcome")
-            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

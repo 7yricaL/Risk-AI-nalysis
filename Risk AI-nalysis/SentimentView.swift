@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PortfolioView: View {
+struct SentimentView: View {
     @State private var portfolio1Tickers: Set<String> = []
     
     let popularTickers = [
@@ -146,5 +146,5 @@ struct TickerRow: View {
 }
 
 #Preview {
-    PortfolioView()
+    SentimentView()
 }
